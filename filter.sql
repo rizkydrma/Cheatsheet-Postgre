@@ -31,3 +31,12 @@ select
   salary
 from employees
 where salary BETWEEN 4000 AND 100000;
+
+-- CHECK IF IS NULL Or NOT NULL
+select 
+  employee_id,
+  first_name,
+  salary,
+  commission_pct
+from employees
+where commission_pct is null;
